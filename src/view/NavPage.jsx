@@ -6,6 +6,9 @@ class NavPage extends React.Component {
     return (
       <div>
         <ul>
+        <li>
+            <Link to="/Hook">Hook</Link>
+          </li>
           <li>
             <Link to="/HocStateLess">HocStateLess</Link>
           </li>

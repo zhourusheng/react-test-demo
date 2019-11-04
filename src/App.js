@@ -8,12 +8,14 @@ import Game from './view/game/Game'
 import MixinPage from './view/mixinPage/MixinPage'
 import StateLess from './view/HOC/Stateless'
 import NewClass from './view/HOC/NewClass'
+import Hook from './view/Hook'
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/" component={NavPage} />
+        <Route exact path="/Hook" component={Hook} />
         <Route exact path="/HocStateLess" component={StateLess} />
         <Route exact path="/NewClass" component={NewClass} />
         <Route exact path="/mixin" component={MixinPage} />
